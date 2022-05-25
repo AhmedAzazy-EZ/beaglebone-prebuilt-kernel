@@ -1,0 +1,13 @@
+Package: timestamp-service
+Version: 1.0-r0
+Description: timestamp-service version 1.0-r0
+ Poor mans RTC using timestamps
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: all
+OE: timestamp-service
+Homepage: unknown
+Depends: systemd
+Source: file://timestamp.service file://load-timestamp.sh
